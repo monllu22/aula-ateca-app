@@ -6,16 +6,26 @@ import {
   onSnapshot, 
   doc, 
   setDoc, 
-  deleteDoc,
-  query
+  addDoc,
+  deleteDoc, 
+  query 
 } from 'firebase/firestore';
 import { 
   getAuth, 
   signInAnonymously, 
-  signInWithCustomToken, 
   onAuthStateChanged 
 } from 'firebase/auth';
 import { 
+  Calendar as CalendarIcon, 
+  Clock, 
+  User, 
+  Plus, 
+  X, 
+  ChevronLeft, 
+  ChevronRight, 
+  Coffee, 
+  BookOpen 
+} from 'lucide-react';
   Calendar as CalendarIcon, 
   Clock, 
   User, 
